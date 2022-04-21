@@ -17,8 +17,8 @@ Below are the following options
 | -h, --host    | Destination Solace PubSub+ Broker in the form of host:port | `<host>:<port>`         | `http://localhost:9000`          |
 | -u, --user    | Destination Solace PubSub+ Broker username:password        | `<username>:<password>` | `default:default`                |
 | -s, --semp    | Destination Solace PubSub+ Broker SEMP credentials         | `<username>:<password>` | `admin:admin`                    |
-| -o, --output  | Destination Solace PubSub+ Broker SEMP credentials         | `<username>:<password>` | `admin:admin`                    |
-| --help        | Output file name                                           |                         | `<asyncAPIFileName_collections>` |
+| -o, --output  | Destination Solace PubSub+ Broker SEMP credentials         | `<username>:<password>` | `<asyncAPIFileName_collections>` |
+| --help        | Output file name                                           |                         |                                  |
 
 ## Development
 
