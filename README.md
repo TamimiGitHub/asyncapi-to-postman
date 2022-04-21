@@ -1,6 +1,6 @@
 # AsyncAPI to Postman Collections
 
-This utility takes in an asyncAPI file as an input parameter and outputs a Postman collection. Note that the events are converted to POST requests sent to the Solace PubSub+ REST Port
+This utility takes in any JSON formatted AsyncAPI file as an input parameter and outputs a Postman collections file that can then be imported to Postman. Note that the events are converted to POST requests sent to the Solace PubSub+ broker on the REST Port.
 
 ## How to run
 
