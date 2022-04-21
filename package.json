@@ -1,8 +1,11 @@
 {
-  "name": "asyncapi-to-postman",
+  "name": "@solace-community/asyncapi-to-postman",
   "version": "1.0.0",
   "description": "This CLI tool takes in an asyncapi file and converts it to a postman collection",
   "main": "index.js",
+  "bin": {
+    "asyncapi-to-postman": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
