@@ -35,3 +35,7 @@ To contribute to this CLI tool
 1. Fork this repo
 1. Update the package.json version number
 1. Make a PR
+
+## To-do
+
+Feature requests are found as issues
