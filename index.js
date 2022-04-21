@@ -16,7 +16,7 @@ function main() {
     .requiredOption('-f, --file <value>', 'Required: AsyncAPI spec file')
     .option('-h, --host  <host>:<port>', 'Solace PubSub+ Broker host:port','http://localhost:9000')
     .option('-u, --user <username>:<password>', 'Solace PubSub+ Broker username:password.', 'default:default')
-    .option('-s, --semp <username>:<password>', 'Solace PubSub+ Broker SEMP username:password.')
+    .option('-s, --semp <username>:<password>', 'Solace PubSub+ Broker SEMP admin:admin.')
     .option('-o, --output <file/location/name.json>', 'Output file name. By default: <asyncAPIFileName_collections>')
     .parse(process.argv);
   
