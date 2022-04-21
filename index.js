@@ -3,8 +3,8 @@
 const fs = require('fs');
 const commander = require('commander');
 const path = require('path');
-const AsyncAPI = require('./asyncAPI');
-const PostmanCollection = require("./postmanCollections")
+const AsyncAPI = require('./util/asyncAPI');
+const PostmanCollection = require("./util/postmanCollections")
 
 function main() {
   // Parse command line args
@@ -30,7 +30,7 @@ function main() {
   
   var asyncAPIFile = JSON.parse(fs.readFileSync(options.file))
   const ap = new AsyncAPI(asyncAPIFile)
-  var pc = new PostmanCollection(require("./EDACollections-template.json"))
+  var pc = new PostmanCollection(require("./util/EDACollections-template.json"))
   
   requests = []
   // Dereference all $refs in file
