@@ -1,6 +1,6 @@
 {
   "name": "@solace-community/asyncapi-to-postman",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This CLI tool takes in an asyncapi file and converts it to a postman collection",
   "main": "index.js",
   "bin": {
